@@ -1,3 +1,6 @@
 site_name: Eli's Personal Site
+nav:
+  - Home:
+      - index.md
 theme:
   name: shadcn
