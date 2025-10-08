@@ -1,6 +1,32 @@
 site_name: Eli's Personal Site
+
 nav:
   - Home:
-      - index.md
+    - Hello: index.md
+  - STM32:
+    - STM32 on Arch Guide: archstm32.md
+    - STM32WAV.md
+    - MPU-6050: GY-521_MPU-6050.md
+  - Embedded Linux:
+    - bbbscratch.md
+    - BeagleBone Black Quick Build: bbb_quickbuild.md
+  - Kernel Dev:
+    - spinlocks.md
+    - sysfs.md 
+  - Linux:
+    - Arch Partitioning: archpartitionguide.md
+  - Quick Reference:
+    - SVN: svn.md
+    - GIT: git.md
+    - sed: sed.md
+  - C Programming:
+    - Function Pointers: funcptrs.md
+  - Fun Snippets:
+    - Stack Direction: stackdirection.md
+
 theme:
   name: shadcn
+
+markdown_extensions:
+  - admonition
+  - codehilite
