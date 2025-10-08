@@ -1,4 +1,5 @@
 site_name: Eli's Personal Site
+site_url: http://elishareece.com
 
 nav:
   - Home:
@@ -7,6 +8,8 @@ nav:
     - STM32 on Arch Guide: archstm32.md
     - STM32WAV.md
     - MPU-6050: GY-521_MPU-6050.md
+    - Debug USART: debug_usart.md
+    - QEMU Baremetal: qemu_baremetal.md
   - Embedded Linux:
     - bbbscratch.md
     - BeagleBone Black Quick Build: bbb_quickbuild.md
